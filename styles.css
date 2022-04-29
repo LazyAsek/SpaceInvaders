@@ -1,0 +1,25 @@
+.grid{
+    height: 450px;
+    width: 450px;
+    border: 1px black solid;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.grid div{
+    height: 50px;
+    width: 50px;
+}
+
+.player{
+    background-color: yellow;
+}
+
+.alien{
+    border-radius: 50px ;
+    background-color: blueviolet
+}
+
+.bullet{
+    background-color: darkgoldenrod;
+}
